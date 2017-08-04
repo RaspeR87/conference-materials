@@ -1,0 +1,11 @@
+{
+  "name": "SPD2016",
+  "globalDependencies": {
+    "microsoft.ajax": "github:DefinitelyTyped/DefinitelyTyped/microsoft-ajax/microsoft.ajax.d.ts#11322524f8db9cdb921427cad84cd22fe2d4f965",
+    "SharePoint": "github:DefinitelyTyped/DefinitelyTyped/sharepoint/SharePoint.d.ts#11322524f8db9cdb921427cad84cd22fe2d4f965",
+    "jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts#5e269cec94f666c298625948c5c5ff8224846e33",
+    "knockout": "github:DefinitelyTyped/DefinitelyTyped/knockout/knockout.d.ts#a5f2e6552e9951c6fa434cf1e47921775dec1b90",
+    "moment": "github:DefinitelyTyped/DefinitelyTyped/moment/moment.d.ts#86dbea8fc37d9473fee465da4f0a21bea4f8cbd9",
+    "moment-node": "github:DefinitelyTyped/DefinitelyTyped/moment/moment-node.d.ts#86dbea8fc37d9473fee465da4f0a21bea4f8cbd9"
+  }
+}

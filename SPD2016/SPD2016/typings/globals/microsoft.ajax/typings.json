@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/11322524f8db9cdb921427cad84cd22fe2d4f965/microsoft-ajax/microsoft.ajax.d.ts",
+    "raw": "github:DefinitelyTyped/DefinitelyTyped/microsoft-ajax/microsoft.ajax.d.ts#11322524f8db9cdb921427cad84cd22fe2d4f965",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/11322524f8db9cdb921427cad84cd22fe2d4f965/microsoft-ajax/microsoft.ajax.d.ts"
+  }
+}
