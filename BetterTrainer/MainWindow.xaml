@@ -1,0 +1,60 @@
+﻿<Window x:Class="BetterTrainer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BetterTrainer"
+        mc:Ignorable="d"
+        Title="Better Trainer" Height="566.871" Width="726.84" Loaded="Window_Loaded">
+    <Grid>
+        <TabControl HorizontalAlignment="Left" Height="536" VerticalAlignment="Top" Width="719">
+            <TabItem Header="Face Recognition">
+                <Grid Background="#FFE5E5E5">
+                    <Image x:Name="imgLeft" HorizontalAlignment="Left" Height="258" Margin="10,10,0,0" VerticalAlignment="Top" Width="330"/>
+                    <Image x:Name="imgRight" HorizontalAlignment="Left" Height="258" Margin="370,10,0,0" VerticalAlignment="Top" Width="330"/>
+                    <Button x:Name="btnEnd" Content="End" HorizontalAlignment="Left" Margin="625,478,0,0" VerticalAlignment="Top" Width="75" Click="btnEnd_Click"/>
+                    <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Margin="545,478,0,0" VerticalAlignment="Top" Width="75" Click="btnStart_Click"/>
+                    <TextBox x:Name="tbLogsFR" Height="200" Margin="10,272,10,36" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" TextWrapping="Wrap" Text="" VerticalScrollBarVisibility="Visible" Width="690"/>
+                    <ComboBox x:Name="cbKamera" HorizontalAlignment="Left" Margin="496,478,0,0" VerticalAlignment="Top" Width="44" Height="20"/>
+                    <Label Content="Camera:" HorizontalAlignment="Left" Margin="438,475,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Speech Recognition">
+                <Grid Background="#FFE5E5E5">
+                    <Button x:Name="btnEndSR" Content="End" HorizontalAlignment="Left" Margin="625,478,0,0" VerticalAlignment="Top" Width="75" Click="btnEndSR_Click"/>
+                    <Button x:Name="btnStartSR" Content="Start" HorizontalAlignment="Left" Margin="545,478,0,0" VerticalAlignment="Top" Width="75" Click="btnStartSR_Click"/>
+                    <TextBox x:Name="tbLogsSR" Height="463" Margin="10,10,10,35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" TextWrapping="Wrap" Text="" VerticalScrollBarVisibility="Visible" Width="690"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Speech Recognition (Google)">
+                <Grid Background="#FFE5E5E5">
+                    <Button x:Name="btnEndSRG" Content="End" HorizontalAlignment="Left" Margin="625,478,0,0" VerticalAlignment="Top" Width="75" Click="btnEndSRG_Click"/>
+                    <Button x:Name="btnStartSRG" Content="Start" HorizontalAlignment="Left" Margin="545,478,0,0" VerticalAlignment="Top" Width="75" Click="btnStartSRG_Click"/>
+                    <TextBox x:Name="tbLogsSRG" Height="463" Margin="10,10,10,35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" TextWrapping="Wrap" Text="" VerticalScrollBarVisibility="Visible" Width="690"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="PowerBI">
+                <Grid Background="#FFE5E5E5">
+                    <TextBox x:Name="tbLogsPBI" Margin="11,10,11.8,97" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" TextWrapping="Wrap" Text="" VerticalScrollBarVisibility="Visible" Width="690"/>
+                    <Button x:Name="btnEndPBI" Content="End" HorizontalAlignment="Left" Margin="625,478,0,0" VerticalAlignment="Top" Width="75" Click="btnEndPBI_Click"/>
+                    <Button x:Name="btnStartPBI" Content="Start" HorizontalAlignment="Left" Margin="545,478,0,0" VerticalAlignment="Top" Width="75" Click="btnStartPBI_Click"/>
+                    <TextBox x:Name="tbAPIURL" HorizontalAlignment="Left" Height="23" Margin="70,416,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="630"/>
+                    <Label Content="API URL:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="11,413,0,0"/>
+                    <Label Content="Speaker:" HorizontalAlignment="Left" Margin="11,444,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="tbSpeaker" HorizontalAlignment="Left" Height="23" Margin="70,448,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="232"/>
+                    <Button x:Name="btnResetGlobal" Content="Reset - Global" HorizontalAlignment="Left" Margin="11,478,0,0" VerticalAlignment="Top" Width="110" Click="btnResetGlobal_Click"/>
+                    <Button x:Name="btnResetSession" Content="Reset - Session" HorizontalAlignment="Left" Margin="126,478,0,0" VerticalAlignment="Top" Width="117" RenderTransformOrigin="-0.195,0.56" Click="btnResetSession_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="AML">
+                <Grid Background="#FFE5E5E5">
+                    <TextBox x:Name="tbLogsAML" Margin="11,10,11.8,97" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" TextWrapping="Wrap" Text="" VerticalScrollBarVisibility="Visible" Width="690"/>
+                    <Button x:Name="btnEndAML" Content="End" HorizontalAlignment="Left" Margin="625,478,0,0" VerticalAlignment="Top" Width="75" Click="btnEndAML_Click"/>
+                    <Button x:Name="btnStartAML" Content="Start" HorizontalAlignment="Left" Margin="545,478,0,0" VerticalAlignment="Top" Width="75" Click="btnStartAML_Click"/>
+                    <TextBox x:Name="tbDBConnectionString" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" TextWrapping="Wrap" Text="" VerticalScrollBarVisibility="Visible" Margin="142,421,12,38" Width="559"/>
+                    <Label Content="DB Connection String:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,421,0,0"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
