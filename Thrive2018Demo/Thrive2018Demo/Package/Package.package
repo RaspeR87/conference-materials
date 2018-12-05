@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="4714fe95-36ac-4224-9b82-ba8c97eeb995" solutionId="4714fe95-36ac-4224-9b82-ba8c97eeb995" resetWebServer="false" sharePointProductVersion="16.0" name="Thrive2018Demo" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="f608cdce-69fd-4e8a-87e8-ef5a5315e512" />
+    <featureReference itemId="e3c15659-77a4-4c01-9afd-f77e1cc07fdd" />
+    <featureReference itemId="5576f1bf-110e-4906-a9b9-d4ad27e94022" />
+  </features>
+</package>

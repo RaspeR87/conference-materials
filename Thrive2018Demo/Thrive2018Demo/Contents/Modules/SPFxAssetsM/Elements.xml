@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="SPFxAssetsM_WebParts" Url="SPFxAssets/WebParts">
+    <File Path="SPFxAssetsM\WebParts\helloworld-webpart\96aa5fb7-e40c-4098-9681-092add908157.json" Url="helloworld-webpart/96aa5fb7-e40c-4098-9681-092add908157.json" Type="GhostableInLibrary" ReplaceContent="True" IgnoreIfAlreadyExists="True" />
+    <File Path="SPFxAssetsM\WebParts\helloworld-webpart\hello-world-web-part.js" Url="helloworld-webpart/hello-world-web-part.js" Type="GhostableInLibrary" ReplaceContent="True" IgnoreIfAlreadyExists="True" />
+    <File Path="SPFxAssetsM\WebParts\helloworld-webpart\helloworld-webpart-helloworldwebpartstrings_en-us.js" Url="helloworld-webpart/helloworld-webpart-helloworldwebpartstrings_en-us.js" Type="GhostableInLibrary" ReplaceContent="True" IgnoreIfAlreadyExists="True" />
+    <File Path="SPFxAssetsM\WebParts\helloworld2-webpart\d2e778cd-8432-4de6-8e2d-ecd3357fbe7b.json" Url="helloworld2-webpart/d2e778cd-8432-4de6-8e2d-ecd3357fbe7b.json" Type="GhostableInLibrary" ReplaceContent="True" IgnoreIfAlreadyExists="True" />
+    <File Path="SPFxAssetsM\WebParts\helloworld2-webpart\hello-world-2-web-part.js" Url="helloworld2-webpart/hello-world-2-web-part.js" Type="GhostableInLibrary" ReplaceContent="True" IgnoreIfAlreadyExists="True" />
+    <File Path="SPFxAssetsM\WebParts\helloworld2-webpart\helloworld2-webpart-helloworld2webpartstrings_en-us.js" Url="helloworld2-webpart/helloworld2-webpart-helloworld2webpartstrings_en-us.js" Type="GhostableInLibrary" ReplaceContent="True" IgnoreIfAlreadyExists="True" />
+  </Module>
+  <Module Name="SPFxAssetsM_AppCatalog" Url="AppCatalog">
+    <File Path="SPFxAssetsM\WebParts\helloworld-webpart\helloworld-webpart.sppkg" Url="helloworld-webpart.sppkg" ReplaceContent="True"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="True" />
+    <File Path="SPFxAssetsM\WebParts\helloworld2-webpart\helloworld-2-webpart.sppkg" Url="helloworld-2-webpart.sppkg" ReplaceContent="True"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="True" />
+  </Module>
+  <Module Name="SPFXAssetsM_Global" Url="SPFxAssets/Global">
+    <File Path="SPFxAssetsM\Global\jquery\3.3.1\jquery.min.js" Url="jquery/3.3.1/jquery.min.js" Type="GhostableInLibrary" ReplaceContent="True" IgnoreIfAlreadyExists="True" />
+  </Module>
+</Elements>

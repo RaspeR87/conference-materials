@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="SPFx Assets" OnQuickLaunch="FALSE" TemplateType="851" FeatureId="4bcccd62-dcaf-46dc-a7d4-e38277ef33f4" Url="SPFxAssets" Description="SPFx Assets Library"></ListInstance>
+</Elements>

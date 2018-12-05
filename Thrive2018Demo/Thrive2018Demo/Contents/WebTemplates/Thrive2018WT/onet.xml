@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project Title="Thrive2018WT" Revision="2" ListDir="" xmlns:ows="Microsoft SharePoint" UIVersion="15">
+  <NavBars>
+  </NavBars>
+  <Configurations>
+    <Configuration ID="-1" Name="NewWeb"/>
+    <Configuration ID="0" Name="BLANKINTERNET">
+      <Lists/>
+      <SiteFeatures>
+        <!-- Workflow Features -->
+        <!-- Workflow Expiration -->
+        <Feature ID="C85E5759-F323-4EFB-B548-443D2216EFB5" />
+        <!-- PublishingPrerequisites -->
+        <Feature ID="A392DA98-270B-4e85-9769-04C0FDE267AA" />
+        <Feature ID="7C637B23-06C4-472d-9A9A-7C175762C5C4">
+          <!-- ViewFormPagesLockDown -->
+        </Feature>
+        <Feature ID="AEBC918D-B20F-4a11-A1DB-9ED84D79C87E">
+          <!-- PublishingResources -->
+          <Properties xmlns="http://schemas.microsoft.com/sharepoint/">
+            <Property Key="AllowRss" Value="false"/>
+            <Property Key="SimplePublishing" Value="true" />
+          </Properties>
+        </Feature>
+        <Feature ID="F6924D36-2FA8-4f0b-B16D-06B7250180FA">
+          <!-- Office SharePoint Server Publishing -->
+        </Feature>
+      </SiteFeatures>
+      <WebFeatures>
+        <Feature ID="22A9EF51-737B-4ff2-9346-694633FE4416">
+          <!-- Publishing -->
+          <Properties xmlns="http://schemas.microsoft.com/sharepoint/">
+            <Property Key="ChromeMasterUrl" Value=""/>
+            <Property Key="DefaultPageLayout" Value="~SiteCollection/_catalogs/masterpage/PageFromDocLayout.aspx"/>
+            <Property Key="WelcomePageUrl" Value="$Resources:osrvcore,List_Pages_UrlName;/default.aspx"/>
+            <Property Key="PagesListUrl" Value=""/>
+            <Property Key="AvailableWebTemplates" Value=""/>
+            <Property Key="AvailablePageLayouts" Value=""/>
+            <Property Key="AlternateCssUrl" Value="" />
+            <Property Key="SimplePublishing" Value="false" />
+          </Properties>
+        </Feature>
+        <Feature ID="541F5F57-C847-4e16-B59A-B31E90E6F9EA">
+          <!-- Per-Web Portal Navigation Properties-->
+          <Properties xmlns="http://schemas.microsoft.com/sharepoint/">
+            <Property Key="InheritGlobalNavigation" Value="true"/>
+            <Property Key="ShowSiblings" Value="true"/>
+            <Property Key="IncludeSubSites" Value="true"/>
+            <Property Key="IncludePages" Value="false"/>
+          </Properties>
+        </Feature>
+        <Feature ID="94C94CA6-B32F-4da9-A9E3-1F3D343D7ECB">
+          <!-- Office SharePoint Server Publishing -->
+        </Feature>
+        
+        <!-- SPFxWebPartsFeature -->
+        <Feature ID="4e92978a-d631-49ed-876b-9f0159c39cda" />
+      </WebFeatures>
+      <Modules>
+        <Module Name="Home" />
+      </Modules>
+    </Configuration>
+  </Configurations>
+  <Modules>
+    <Module Name="Home" Url="$Resources:osrvcore,List_Pages_UrlName;" Path="">
+      <File Url="default.aspx" Type="GhostableInLibrary" >
+        <Property Name="Title" Value="Welcome to Thrive 2018 Demo Page" />
+        <Property Name="PublishingPageLayout" Value="~SiteCollection/_catalogs/masterpage/BlankWebPartPage.aspx, $Resources:cmscore,PageLayout_BlankWebPartPage_Title;" />
+        <Property Name="ContentType" Value="$Resources:cmscore,contenttype_welcomepage_name;" />
+        <Property Name="PublishingPageContent" Value="&lt;h2&gt;$Resources:cmscore,IPPT_NewSiteHeader;&lt;/h2&gt;&lt;h3 class=&quot;ms-rteElement-H3&quot;&gt;$Resources:cmscore,IPPT_NewSite_Text1;&lt;/h3&gt;" />
+        <AllUsersWebPart WebPartZoneID="TopLeftRow" WebPartOrder="1">
+          <![CDATA[
+            <webParts>
+             <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+              <metaData>
+                <type name="Microsoft.SharePoint.WebPartPages.ClientSideWebPart, Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+                <importErrorMessage>Cannot import this SPFx Web Part.</importErrorMessage>
+              </metaData>
+              <data>
+                <properties>
+                  <property name="Description" type="string">Hello World SPFx Web Part</property>
+                  <property name="HelpUrl" type="string" />
+                  <property name="Hidden" type="bool">False</property>
+                  <property name="MissingAssembly" type="string">Cannot Import WebPart</property>
+                  <property name="CatalogIconImageUrl" type="string" />
+                  <property name="Title" type="string">Hello World</property>
+                  <property name="AllowHide" type="bool">True</property>
+                  <property name="AllowMinimize" type="bool">True</property>
+                  <property name="ExportMode" type="string">All</property>
+                  <property name="AllowZoneChange" type="bool">True</property>
+                  <property name="TitleUrl" type="string" />
+                  <property name="ChromeType" type="chrometype">Default</property>
+                  <property name="AllowConnect" type="bool">True</property>
+                  <property name="Width" type="string" />
+                  <property name="Height" type="string" />
+                  <property name="HelpMode" type="string">Modeless</property>
+                  <property name="ClientSideWebPartId" type="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">96aa5fb7-e40c-4098-9681-092add908157</property>
+                  <property name="AllowEdit" type="bool">True</property>
+                  <property name="TitleIconImageUrl" type="string" />
+                  <property name="Direction" type="direction">NotSet</property>
+                  <property name="AllowClose" type="bool">True</property>
+                  <property name="ChromeState" type="chromestate">Normal</property>
+                </properties>
+              </data>
+             </webPart>
+            </webParts>
+          ]]>
+        </AllUsersWebPart>
+        <AllUsersWebPart WebPartZoneID="TopLeftRow" WebPartOrder="2">
+          <![CDATA[
+            <webParts>
+             <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+              <metaData>
+                <type name="Microsoft.SharePoint.WebPartPages.ClientSideWebPart, Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+                <importErrorMessage>Cannot import this SPFx Web Part.</importErrorMessage>
+              </metaData>
+              <data>
+                <properties>
+                  <property name="Description" type="string">Hello World 2 SPFx Web Part</property>
+                  <property name="HelpUrl" type="string" />
+                  <property name="Hidden" type="bool">False</property>
+                  <property name="MissingAssembly" type="string">Cannot Import WebPart</property>
+                  <property name="CatalogIconImageUrl" type="string" />
+                  <property name="Title" type="string">Hello World 2</property>
+                  <property name="AllowHide" type="bool">True</property>
+                  <property name="AllowMinimize" type="bool">True</property>
+                  <property name="ExportMode" type="string">All</property>
+                  <property name="AllowZoneChange" type="bool">True</property>
+                  <property name="TitleUrl" type="string" />
+                  <property name="ChromeType" type="chrometype">Default</property>
+                  <property name="AllowConnect" type="bool">True</property>
+                  <property name="Width" type="string" />
+                  <property name="Height" type="string" />
+                  <property name="HelpMode" type="string">Modeless</property>
+                  <property name="ClientSideWebPartId" type="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">d2e778cd-8432-4de6-8e2d-ecd3357fbe7b</property>
+                  <property name="AllowEdit" type="bool">True</property>
+                  <property name="TitleIconImageUrl" type="string" />
+                  <property name="Direction" type="direction">NotSet</property>
+                  <property name="AllowClose" type="bool">True</property>
+                  <property name="ChromeState" type="chromestate">Normal</property>
+                </properties>
+              </data>
+             </webPart>
+            </webParts>
+          ]]>
+        </AllUsersWebPart>
+      </File>
+    </Module>
+  </Modules>
+</Project>

@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/helloWorld2/HelloWorld2WebPart.js",
+      "manifest": "./src/webparts/helloWorld2/HelloWorld2WebPart.manifest.json",
+      "outputPath": "./dist/hello-world-2-web-part.js"
+    }
+  ],
+  "externals": {
+    "jquery": {
+      "path": "node_modules/jquery/dist/jquery.min.js",
+      "globalName": "jquery",
+      "customJSPath": "Global/jquery/3.3.1/jquery.min.js"
+    }
+  },
+  "localizedResources": {
+    "HelloWorld2WebPartStrings": "webparts/helloWorld2/loc/{locale}.js"
+  }
+}

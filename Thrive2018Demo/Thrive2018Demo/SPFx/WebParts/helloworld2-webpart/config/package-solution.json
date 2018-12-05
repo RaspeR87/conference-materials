@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "helloworld-2-webpart-client-side-solution",
+    "id": "67f2208a-b80a-4a55-9bec-34a1e3ee50f1",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/helloworld-2-webpart.sppkg"
+  }
+}

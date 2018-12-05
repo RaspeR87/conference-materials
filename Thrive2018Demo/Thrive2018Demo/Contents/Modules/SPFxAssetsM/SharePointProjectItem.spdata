@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="SPFxAssetsM\" Type="ElementManifest" />
+    <ProjectItemFile Source="WebParts\helloworld-webpart\96aa5fb7-e40c-4098-9681-092add908157.json" Target="SPFxAssetsM\WebParts\helloworld-webpart\" Type="ElementFile" />
+    <ProjectItemFile Source="WebParts\helloworld-webpart\hello-world-web-part.js" Target="SPFxAssetsM\WebParts\helloworld-webpart\" Type="ElementFile" />
+    <ProjectItemFile Source="WebParts\helloworld-webpart\helloworld-webpart-helloworldwebpartstrings_en-us.js" Target="SPFxAssetsM\WebParts\helloworld-webpart\" Type="ElementFile" />
+    <ProjectItemFile Source="WebParts\helloworld-webpart\helloworld-webpart.sppkg" Target="SPFxAssetsM\WebParts\helloworld-webpart\" Type="ElementFile" />
+    <ProjectItemFile Source="WebParts\helloworld2-webpart\d2e778cd-8432-4de6-8e2d-ecd3357fbe7b.json" Target="SPFxAssetsM\WebParts\helloworld2-webpart\" Type="ElementFile" />
+    <ProjectItemFile Source="WebParts\helloworld2-webpart\hello-world-2-web-part.js" Target="SPFxAssetsM\WebParts\helloworld2-webpart\" Type="ElementFile" />
+    <ProjectItemFile Source="WebParts\helloworld2-webpart\helloworld-2-webpart.sppkg" Target="SPFxAssetsM\WebParts\helloworld2-webpart\" Type="ElementFile" />
+    <ProjectItemFile Source="WebParts\helloworld2-webpart\helloworld2-webpart-helloworld2webpartstrings_en-us.js" Target="SPFxAssetsM\WebParts\helloworld2-webpart\" Type="ElementFile" />
+    <ProjectItemFile Source="Global\jquery\3.3.1\jquery.min.js" Target="SPFxAssetsM\Global\jquery\3.3.1\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

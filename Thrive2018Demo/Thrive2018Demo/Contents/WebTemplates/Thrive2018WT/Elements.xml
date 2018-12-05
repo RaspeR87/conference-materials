@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <WebTemplate
+   Name="Thrive2018WT"
+   BaseTemplateName="BLANKINTERNET"
+   BaseTemplateID="0"
+   BaseConfigurationID="0"
+   Title="Thrive 2018"
+   Description="Thrive 2018 Web Template"
+   DisplayCategory="Custom"/>
+</Elements>
